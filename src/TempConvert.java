@@ -5,7 +5,7 @@ public class TempConvert {
         Scanner input = new Scanner(System.in);
         System.out.print("Введите температуру в фаренгейте: ");
         final double coefficientT = 1.8;
-        final double meltingIce = 32;
+        final int meltingIce = 32;
         float fahrenheit;
         fahrenheit = input.nextInt();
         double celsius = (fahrenheit-meltingIce)/coefficientT;
